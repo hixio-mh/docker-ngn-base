@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Add Dependencies
 RUN apk add --update openssl pkgconfig python gcc g++ make git \
-  && npm install -g ngn@0.2.129 \
+  && npm install -g ngn@0.2.131 \
   && cd / \
   && npm link ngn \
   && apk del pkgconfig python gcc g++ make git
