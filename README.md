@@ -1,5 +1,7 @@
 # NGN Base Image
 
+[![](https://badge.imagelayers.io/ngnjs/base:latest.svg)](https://imagelayers.io/?images=ngnjs/base:latest 'Get your own badge on imagelayers.io')
+
 This image is designed specifically for building NGN services. It is designed to be as small as possible, yet serve the most fundamental needs of a microservice architecture. 
 
 ## Image Contents: 
