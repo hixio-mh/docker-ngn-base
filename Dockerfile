@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:4.2
+FROM mhart/alpine-node:4.2.4
 MAINTAINER Corey Butler
 
 VOLUME ["/app"]
