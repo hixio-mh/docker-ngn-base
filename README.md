@@ -2,13 +2,13 @@
 
 [![](https://badge.imagelayers.io/ngnjs/base:latest.svg)](https://imagelayers.io/?images=ngnjs/base:latest 'Get your own badge on imagelayers.io')
 
-This image is designed specifically for building NGN services. It is designed to be as small as possible, yet serve the most fundamental needs of a microservice architecture. 
+This image is designed specifically for building NGN services. It is designed to be as small as possible, yet serve the most fundamental needs of a microservice architecture.
 
-## Image Contents: 
+## Image Contents:
 
  - Alpine Linux (latest)
  - OpenSSL (latest)
- - Node.js (4.2.1) & npm
+ - Node.js (4.2.6 LTS) & npm
  - Preinstalled NGN
 
 OpenSSL has the largest physical footprint of this image. The image isn't
@@ -36,7 +36,7 @@ RUN cd /app \
 CMD ["npm", "start"]
 ```
 
-This assumes `npm start` will launch your application (the recommended approach). 
+This assumes `npm start` will launch your application (the recommended approach).
 To build this image, execute
 
 ```sh
@@ -67,7 +67,7 @@ This is effectively the same thing as running `node script.js`.
 ### Development
 
 Development is often easier when you have access to the command line and
-local file system of your development computer. To do this, bash should be 
+local file system of your development computer. To do this, bash should be
 added to your Dockerfile.
 
 ```sh
