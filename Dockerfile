@@ -19,7 +19,7 @@ RUN cd /node-${VERSION} && \
   paxctl -cm /usr/bin/node && \
   cd / && \
   if [ -x /usr/bin/npm ]; then \
-    npm install -g npm@${NPM_VERSION} ngn@0.2.132 && \
+    npm install -g npm@${NPM_VERSION} ngn@0.2.133 && \
     find /usr/lib/node_modules/npm -name test -o -name .bin -type d | xargs rm -rf; \
   fi && \
   apk del pkgconfig curl make gcc g++ binutils-gold python linux-headers paxctl ${DEL_PKGS} && \
