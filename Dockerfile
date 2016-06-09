@@ -5,7 +5,7 @@ ENV PATH $PATH:~/npm-global/bin
 
 RUN mkdir ~/npm-global \
   && npm config set prefix '~/npm-global' \
-  && npm install -g ngn@0.3.9 \
+  && npm install -g ngn@0.3.10 \
   && cd / \
   && npm link ngn
 
