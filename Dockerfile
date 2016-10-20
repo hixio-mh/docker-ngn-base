@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:4.4.3
+FROM mhart/alpine-node:6.9.1
 MAINTAINER Corey Butler
 
 ENV PATH $PATH:~/npm-global/bin
