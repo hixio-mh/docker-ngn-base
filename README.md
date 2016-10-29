@@ -8,7 +8,7 @@ This image is designed specifically for building NGN services. It is designed to
 
  - Alpine Linux (latest)
  - OpenSSL (latest)
- - Node.js (4.2.6 LTS) & npm
+ - Node.js (7.0.0) & npm
  - Preinstalled NGN
 
 OpenSSL has the largest physical footprint of this image. The image isn't
